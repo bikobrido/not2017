@@ -16,6 +16,10 @@
 // When a command is entered in to the serial monitor on the computer 
 // the Arduino will relay it to the Bluetooth module and display the result.
 //
+
+
+//Mke sure to select tools > Board:Arduino/Genuino Mega or Mega 2560 and select a port under Tools > Port
+//Do not press button on bt module
  
 char serialByte = '0';
 const byte  LEDPIN = 13; 
